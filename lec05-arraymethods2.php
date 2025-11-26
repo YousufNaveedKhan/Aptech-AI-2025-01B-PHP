@@ -90,5 +90,35 @@ $mappedArr = array_map(function($num) {
 print_r($mappedArr);
 
 
+// array_reverse
+echo "<br>";
+$newArr = [1, 2, 3, 4, 5];
+$reversedArr = array_reverse($newArr);
+print_r($reversedArr);
+
+// array_slice
+echo "<br>"; 
+$names = ["Anusha", "Laiba", "Abu Hurerah", "Misbah"];
+print_r($names);
+echo "<br>"; 
+// => 0 to 3
+$slicedArr = array_slice($names, 0, 3); 
+print_r($slicedArr);
+
+
+
+// array_splice
+echo "<br>";
+$nums = [1, 2, 3, 4, 5];
+$new_nums = [25, 50, 75];
+array_splice($nums, 1, 3, $new_nums);
+print_r($nums);
+
+// shuffle
+echo "<br>";
+
+$numss = [1, 2, 3, 4, 5, 6, 7, 8];
+shuffle($numss);
+print_r($numss);
 
 ?>
