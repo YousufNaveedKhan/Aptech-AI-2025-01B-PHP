@@ -24,10 +24,8 @@ Both projects must be properly structured and connected with a database.
 
 Below are example screenshots to help you understand the expected output clearly:
 
-```md
 ![CV Uploader – Upload Form](examples/cv-uploader01.png)
 ![CV Uploader – Uploaded Files Table](examples/cv-uploader02.png)
-```
 
 > These screenshots demonstrate the upload form, validation message, and the data table after uploading a PDF.
 
@@ -108,10 +106,8 @@ Below the upload section, display a table with the following columns:
 
 Below are example screenshots to help you understand the expected output clearly:
 
-```md
 ![Image Uploader – Upload Form](examples/image-uploader01.png)
 ![Image Uploader – Uploaded Images Table](examples/image-uploader02.png)
-```
 
 > These screenshots demonstrate image validation & table listing.
 
